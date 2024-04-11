@@ -1,0 +1,184 @@
+.h1Blocks {
+    background-color: rgb(133, 17, 17);
+    margin: 0;
+    padding: 5vh 0;
+    font-size: larger;
+    text-align: center;
+    color: #fff;
+}
+
+.containerBlocksBackground{
+    width: 100%;
+    background-color: #e6c8c8be;
+    padding: 5vh 0;
+}
+
+.containerBlocks {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+        'Block1 Block1 Block1 Block1 Block2 Block2'
+        'Block3 Block3 Block4 Block4 Block4 Block5'
+        'Block6 Block7 Block8 Block8 Block8 Block5';
+    gap: 1rem;
+}
+
+#Block{
+    transition: all 0.5s ease-in-out;
+}
+
+#Block:hover{
+    transform: scale(1.05);
+}
+
+.Block1{
+    grid-area: Block1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.freepik.com/darmowe-zdjecie/piekny-widok-na-plac-budowy-w-miescie-podczas-zachodu-slonca_181624-9347.jpg?t=st=1712842195~exp=1712845795~hmac=cb985aca614cae5fde59cb662d82377a8a019a7677642a855915b866a8da2967&w=1060");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 41vw;
+    height: 40vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+.Block1 p{
+    width: 70%;
+    font-size: xx-large;
+}
+
+.Block2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://img.freepik.com/darmowe-zdjecie/ciezkie-maszyny-i-pracownicy-budowlani-pracujacy-na-budynku_181624-8234.jpg?t=st=1712842205~exp=1712845805~hmac=2050a3238cf71b98c8021fe55a8da38c15de80262f0117bf77dd51b2929bf337&w=900");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: Block2;  
+    width: 30vw;  
+    height: 40vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Block2 p{
+    width: 70%;
+    font-size: xx-large;
+}
+
+.Block3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("https://img.freepik.com/darmowe-zdjecie/krajobraz-ekstremalnego-trzesienia-ziemi_23-2150879873.jpg?t=st=1712844777~exp=1712848377~hmac=0885715916416d752eaa7b7d4335636ceda8058308509aa48bb6038185c0feff&w=1060");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: Block3;  
+    width: 30vw;  
+    height: 25vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block3 p{
+    width: 60%;
+    font-size: xx-large;
+}
+
+.Block4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.freepik.com/darmowe-zdjecie/ciezka-koparka-do-kopania-w-swietle-dziennym_23-2149194831.jpg?t=st=1712844857~exp=1712848457~hmac=4ea8a6a54ef4aa50e192ddce27d5e58d3c9a1e3da4c238bb8e74ed5a214f43c5&w=1060");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: Block4;
+    width: 25vw;  
+    height: 25vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block4 p{
+    width: 70%;
+    font-size: xx-large;
+}
+
+.Block5{
+    background-color: rgb(133, 17, 17);
+    color: #fff;
+    grid-area: Block5;
+    width: 15vw;   
+}
+
+.Block5 h2{
+    margin-left: 1.5vw;
+}
+
+.Block5 p{
+    margin: 1vh 1.5vw;
+    padding: 0;   
+}
+
+.Block5 p a{
+    color: #fff;
+    text-decoration: none;  
+}
+
+.Block6{
+    grid-area: Block6; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/darmowe-zdjecie/wyglad-ciezkich-maszyn-uzywanych-w-przemysle-budowlanym_23-2151307814.jpg?t=st=1712844579~exp=1712848179~hmac=de5853344039f7a7fbf8017beba3fe7efc0e68e4cdd2a0ef8dfbd52f218518a2&w=1060");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 14.5vw;  
+    height: 20vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block6 p{
+    width: 100%;
+    font-size: x-large;
+    padding: 0 2vw;
+}
+
+.Block7{
+    grid-area: Block7; 
+    background-color: rgb(133, 17, 17);
+    width: 14.5vw;  
+    height: 20vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block7 p{
+    width: 100%;
+    font-size: x-large;
+}
+
+.Block8{
+    grid-area: Block8; 
+    background-color: rgb(71, 71, 71);
+    height: 20vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block8 p{
+    width: 100%;
+    font-size: x-large;
+}
+

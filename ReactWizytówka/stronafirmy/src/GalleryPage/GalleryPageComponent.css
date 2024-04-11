@@ -1,0 +1,14 @@
+.h1Gallery{
+    background-color: rgb(133, 17, 17);
+    margin: 0;
+    padding: 5vh 0;
+    font-size: larger;
+    text-align: center;
+    color: #fff;
+}
+
+.containerGalleryBackground{
+    width: 100%;
+    background-color: #e6c8c8be;
+    padding: 5vh 0;
+}

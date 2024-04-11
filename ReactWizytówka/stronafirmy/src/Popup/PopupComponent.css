@@ -1,0 +1,59 @@
+.popup {
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #bbbbbb;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.closeButton {
+    position: absolute;
+    top: -3vh;
+    right: 0.5vw;
+    font-size: 5vw;
+    cursor: pointer;
+}
+
+.profilePhoto{
+    width: 15%;
+    border: solid 0.1rem #000;
+    border-radius: 50%;
+    margin-left: 5vh;
+}
+
+.popup p {
+    font-size: 2vw;
+    padding: 0 2vw;
+}
+
+.popup button {
+    margin-top: 1vh;
+    padding: 2vh 5vw;
+    background-color: #0000008e;
+    color: white;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.popup button:hover {
+    background-color: #000000;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

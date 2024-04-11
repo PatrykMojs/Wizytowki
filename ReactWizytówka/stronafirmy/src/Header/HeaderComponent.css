@@ -1,0 +1,52 @@
+header{
+    margin: 0;
+    padding: 0;
+}
+
+.containerHeader {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.containerHeader img,
+.intro,
+.phoneNumber {
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.containerHeader img {
+    padding: 0;
+    width: 15%; 
+    height: 15vh;
+}
+
+.intro{
+    width: 20%;
+    text-align: left;
+}
+
+.phoneNumber {
+    margin: 0;
+    width: 40%; 
+    text-align: right;
+}
+
+
+.phoneNumber a{
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.phoneNumber a:hover{
+    color: rgb(133, 17, 17);
+    text-decoration: none;
+
+}
+
+.hrHeader {
+    width: 60%;
+    margin: 0 auto; 
+} 

@@ -1,0 +1,45 @@
+.h2Info{
+    background-color: rgb(133, 17, 17);
+    margin: 0;
+    padding: 5vh 0;
+    text-align: center;
+    font-size: larger;
+    color: #fff;
+}
+
+.h3Info{
+    text-align: center;
+    font-size: 1.20rem;
+}
+
+.containerInfoBackground{
+    width: 100%;
+    background-color: #e6c8c8be;
+    padding: 5vh 0;
+}
+
+.containerInfo{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.column1,
+.column2,
+.column3{
+    width: 30%;
+}
+
+.hrInfo{
+    width: 30%;
+    height: 0.5vh;
+    background-color: rgb(133, 17, 17);
+    border: none;
+}
+
+.imageText{
+    width: 100%;
+    border-radius: 1rem;
+}

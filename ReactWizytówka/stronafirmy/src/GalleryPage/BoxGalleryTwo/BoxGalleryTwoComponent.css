@@ -1,0 +1,24 @@
+.BoxGalleryTwo{
+    width: 80%;
+    margin: 5vh auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 1vw;
+}
+
+.BoxGalleryTwo img {
+    width: 100%;
+    height: 35vh;
+    border-radius: 7%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.BoxGalleryTwo img:hover {
+    transform: scale(1.02);
+}
+
+.h2BoxGalleryTwo{
+    text-align: center;
+    font-size: xx-larger;
+}

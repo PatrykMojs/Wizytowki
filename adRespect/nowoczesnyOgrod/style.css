@@ -1,0 +1,108 @@
+hr{
+    color: rgb(255, 255, 255);
+}
+
+.MenuElement{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.MenuElement:hover{
+    transform: translateX(-2px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    transition: transform ease-out .5s, box-shadow ease-out .5s;
+}
+
+.SectionOne{
+    background-color: rgb(207, 178, 188);
+}
+
+.box{
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+  
+.box:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.rowGradient{
+    position: relative;
+    z-index: 2;
+}
+
+.Gradient{
+    background: -moz-linear-gradient(bottom, rgb(207, 178, 188) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(bottom, rgb(207, 178, 188) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.Gradient.show-gradient{
+    background: none;
+}
+
+.Gradient .images{
+    position: relative;
+    z-index: -1;
+}
+
+.images{
+    position: relative;
+    z-index: -2;
+}
+
+.animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+  
+@keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+}
+  
+@-webkit-keyframes slideIn{
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+  
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+}
+  
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+.footerElements{
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s;
+}
+
+.footerElements:hover{
+    text-decoration: none;
+    color: rgb(3, 101, 212);
+}
+
